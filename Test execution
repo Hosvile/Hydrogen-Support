@@ -1,0 +1,17 @@
+local Lib = loadstring(game:HttpGet(("https://raw.githubusercontent.com/Hosvile/Refinement/main/UI-th%20Library%20v0.1.3d"),true))()
+
+local Win = Lib:CreateWindow("InfiniX.Lib")
+
+local Tab1 = Win:CreateTab("Developing")
+
+Tab1:CreateBlank("It executed, your executor is fine")
+
+wait(10)
+
+if ToDels_ then
+for i, v in pairs(ToDels_) do
+pcall(function()
+    v:Destroy()
+    end)
+end
+end

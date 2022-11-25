@@ -1,4 +1,5 @@
 --1
+game:GetService("StarterGui"):SetCore("DevConsoleVisible",true)
 local MainMenu = Instance.new('ScreenGui',game:GetService("CoreGui"))
  
  MainMenu.Archivable = true
